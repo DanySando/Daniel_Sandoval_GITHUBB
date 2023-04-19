@@ -1,0 +1,291 @@
+html{
+    font-size: 62.5%
+    box-sizing: border-box;
+
+}
+
+*,*:before, *:after{
+    box-sizing: inherit;
+}
+a{
+    text-decoration: none;
+}
+ body{
+    font-size: 16px;
+    font-family: Arial, helvetica, sans-serif ; /*personalizando el body y el tipo de letra de body*/
+    background-color:white;
+ }
+
+
+
+.container{ /* esto es para colocar un espacio entre ya sea img, o textos */
+    max-width: 1250px; 
+    width: 85%;
+    margin: 0 auto;
+
+}
+ /* HEADER*/
+ 
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem auto;
+}
+
+.logo{
+    width: 66.6167px;
+    height: 66.6167px;
+    transition: all 300ms;
+    cursor: pointer;
+
+}
+.logo > img{
+    max-width: 100%;  /* dandole estilo al logo */ 
+    max-height: 100%;
+    margin-left: 1rem auto;
+}
+
+/*.logo.:haver{
+    transforme: scale(1.1,1.1); esto es para que el logo se agrande o se aga mas pequeño al pasar el cursor
+}*/
+.nav{
+    display: flex;
+    justify-content:space-between;
+    font-size: 20px;
+    font-weight: bold ;
+}
+.nav > a{
+    color: black ;
+    margin-left: 5rem;
+    padding: 1rem;
+}
+/*.nav > a:last-child{
+    background-color: yellow;
+    border-radius: 3rem; sirve para poder colocar un boton con stilo y fondo amarillo
+    padding:1rem 3rem; es el espacio entre el texto y el fondo
+}
+/* section*/
+.mg-top{
+    margin-top:11rem;
+
+}
+.fg{
+    font-size: 7rem;
+    margin: 0 ;
+    font-weight: bold ;
+}
+
+.d-flex{
+    display: flex;
+}
+
+
+
+
+.about__icons{
+    display: flex;
+    gap: 1em;
+    justify-items: center; 
+    width: 290px;
+    height: 290px;
+    overflow: hidden;
+    margin: 5px;
+
+}
+
+.about__main{
+    padding-top: 0px;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    gap: 1em;
+    overflow: hidden;
+
+
+}
+.container{
+    display: flex;
+}
+
+.about__paragraph{
+    line-height: 1.7;   
+}
+.header{
+    width: 100%;
+    margin: 0 ;  
+}
+
+.contenedor{
+    position: relative;
+    display: inline-block; /*esto es para que la imagen quede bien al texto*/
+    text-align: center;
+    object-fit: cover;
+}
+ 
+
+.centrado{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /*esto me ayudo a que quede centralizado el texto a la imagen*/
+    color:white;
+    font-weight: bold;
+    font-family: cursive;
+}
+.subtitle{
+    text-align: left; /* esto es para colocar los textos a la izquierda*/
+}
+
+h2.aviso{
+    color: white;
+}
+.footer{
+    background-color: rgb(32, 32, 174); /*dandole color al fondo de footer*/
+    padding: 80px 0; 
+}
+h3.aviso{
+    color: white; /*colocando color al h3*/
+}
+
+.box-orange{
+
+    margin: -1rem 3rem 25px;
+    overflow: hidden;
+    padding: 10px 10px;
+    border-radius:10px;
+    background-color: orange; /*haciendo una caja naranja y moviendola*/
+    border: 1px solid orange;
+    width: 10rem;
+    float: left;
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
+}
+.box-orange_2{
+
+    margin: -1rem 2rem 25px;
+    overflow: hidden;
+    padding: 10px 10px;
+    border-radius:10px;
+    background-color: orange;  /*ordenando las cajas y coloeandolas*/
+    border: 1px solid orange;
+    width: 10rem;
+    float: left;
+    color:white;
+    font-weight: bold;
+}
+.box-orange_3{
+
+    margin: -1rem 3.5rem 25px;
+    overflow: hidden;
+    padding: 10px 10px;
+    border-radius:10px;
+    background-color: orange;   /*creando otra caja orange y ordenandola*/
+    border: 1px solid orange;
+    width: 15rem;
+    float: left;
+    font-size: 15px;
+    color:white;
+    font-weight: bold;
+}
+.box-orange_4{
+
+    margin: -1rem 1.5rem 25px;
+    overflow: hidden;
+    padding: 10px 10px;
+    border-radius:10px;
+    background-color: orange; 
+    border: 1px solid orange;  /*creando otra caja naranja pero con otro texto y separado*/
+    width: 10rem;
+    float: left;
+    color:white;
+    font-weight: bold;
+}
+
+h2.aviso{
+    margin: 0 7rem 25px; /*moviendo el h2 de posicion con el margin*/
+}
+
+h6.camino{
+    margin: 0 -1.5rem 0;
+    color:white;
+    font-weight: bold;  /* movi el texto hacia el MAPITA*/
+    float:left;
+}
+img.Mapita{
+    margin:0 2rem 0;  /*moviendo de pocicion el mapa de outletpark*/
+    float:left;
+}
+img.MapaG{
+    margin: 0 1rem 0;
+}
+
+h3.horario{
+    margin:-13rem 30rem 25rem;
+    color:white;    /*movi y ademas le puse color al horario del h3*/
+    font-weight: bold;
+
+}
+h5.center_3{
+    text-align: auto;
+    color:white;  /*movi y coloque un poco de diseño el h5 center*/
+    font-weight: bold;
+    margin: -23rem 29rem 0;
+}
+h6.center_3{
+    text-align: auto;
+    color: white;    /*moviendo el h6 y colocando de color blanco*/
+    margin: 0 29rem 0;
+    
+}
+h3.contact{
+    text-align: right;
+    color: white;    /*colocando color y pocicionamiento del h3 contacto*/
+    margin: 0 20rem 0;
+}
+h5.Ultimo{
+    color: white;
+    text-align: right;  /*colocando el color blanco y posicionandolo*/
+    margin: 0 20rem 0;
+}
+h5.esta{
+    color: white;
+    margin:-5rem 29rem 0; /*configurando el h5 esta para que quede en blanco y en la pocicion que necesito*/
+}
+
+h6.graity{
+    color:white;
+    margin: 0rem 29rem 0;
+}
+
+h6.coppy{
+    color: white;   /*moviendo los copyright al centro y colocando color blanco*/
+    text-align: center;
+
+}
+i.Nashe{
+    text-align: right;
+}
+.IMG{
+    display: flex;
+    width: 40.6167px;
+    height: 40.6167px;   /*Modificando las imagenes de facebook*/
+    cursor: pointer;
+    position: relative;
+    left: -325px;
+    float: right;
+    margin: 0 0 0;
+
+}
+.IMG_2{
+    display: flex;
+    width: 40.6167;
+    height: 40.6167;   /*moviendo la imagen de instagram*/
+    position: relative;
+    left: -335px;
+    float: right;
+    margin: 0 0 0;
+
+}
+
